@@ -1,3 +1,3 @@
-EMAIL_USERNAME = "dkvitca@gmail.com"
-APP_PASSWORD = "xcwk gpda mrll eagb"
-EMAIL_FROM = "noreply@meckano.co.il"
+EMAIL_USERNAME = "youremail@gmail.com"
+APP_PASSWORD = "your app password " 
+EMAIL_FROM = "meckano email"
