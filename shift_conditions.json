@@ -1,0 +1,28 @@
+{
+  "permanent_shifts": {
+    "morning": {"start": 7, "end": 15, "base_hours": 8},
+    "night": {"start": 15, "end": 23, "base_hours": 8},
+    "overnight": {"start": 23, "end": 7, "base_hours": 7}
+  },
+  "custom_shifts": [
+    {
+      "name": "custom_shift_1",
+      "date_start": "2023-01-01",
+      "date_end": "2023-12-31",
+      "day_conditions": ["Fri", "Sat"],
+      "time_slots": [
+        {"start": 16, "end": 0, "base_hours": 8},
+        {"start": 0, "end": 17, "base_hours": 17}
+      ]
+    },
+    {
+      "name": "custom_shift_2",
+      "date_start": "2023-01-01",
+      "date_end": "2023-12-31",
+      "day_conditions": ["Mon", "Wed"],
+      "time_slots": [
+        {"start": 18, "end": 20, "base_hours": 4}
+      ]
+    }
+  ]
+}
